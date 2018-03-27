@@ -1,0 +1,15 @@
+.header {
+    background: #90ee90;
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    color: black;
+    font-family: 'Croissant One', cursive;
+    font-size: 100px;
+    position: absolute;
+    bottom: 8px;
+    left: 70px;
+}
+

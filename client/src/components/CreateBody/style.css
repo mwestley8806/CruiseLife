@@ -1,0 +1,25 @@
+.create {
+    background-color: lightgreen;
+    border: 10px solid lightyellow;
+    border-radius: 25px;
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 70px;
+}
+
+.trips {
+    background-color: lightgreen;
+    border: 10px solid lightyellow;
+    border-radius: 25px;
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 70px;
+}
