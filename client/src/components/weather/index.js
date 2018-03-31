@@ -4,16 +4,12 @@ import "./style.css";
 // gather other componets
 //import otherComponent from "../otherComponent";
 
-const CreateBody = (props) => {
+const weather = (props) => {
 	return(
 		<div>
-			<div className="create">
-				{props.children}
-			</div>
-			
-			
+
 		</div>
 	);
 }
 
-export default CreateBody;
+export default weather;
