@@ -1,0 +1,24 @@
+.weather {
+    background: lightgreen;
+    border: 10px solid lightyellow;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h1 {
+    font-family: 'Croissant One', cursive;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 55px;
+} 
+
+.locations {
+    margin-top: 50px;
+    text-align: center;
+}

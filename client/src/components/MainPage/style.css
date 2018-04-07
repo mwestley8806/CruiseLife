@@ -1,0 +1,14 @@
+h2 {
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+}
+
+.mainHold {
+    background: lightgreen;
+    border: 10px solid lightyellow;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}

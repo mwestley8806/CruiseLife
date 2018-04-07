@@ -10,6 +10,11 @@ import CruiseHome from "./components/CruiseHome";
 import NavBar from "./components/NavBar";
 import CreateBody from "./components/CreateBody";
 import main from "./components/main";
+import weather from "./components/weather";
+import PersonalTrip from "./components/PersonalTrip";
+import CreateTrip from "./components/CreateTrip";
+import MainPage from "./components/MainPage";
+
 
 class App extends Component {
   state = {
@@ -123,7 +128,12 @@ class App extends Component {
         <Route exact path = "/CruiseHome" component={CruiseHome} />
         <Route exact path = "/NavBar" component={NavBar} />
         <Route exact path = "/CreateBody" component={CreateBody} />
+        <Route exact path = "/weather" component={weather} />
+        <Route exact path = "/PersonalTrip" component={PersonalTrip} />
+        <Route exact path = "/CreateTrip" component={CreateTrip} />
         <Route exact path = "/main" component={main} />
+        <Route exact path = "/MainPage" component={MainPage} />
+        
         </div>
       </Router>
     );

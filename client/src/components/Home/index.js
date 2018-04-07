@@ -4,9 +4,10 @@ import "./style.css";
 const Home = (props) =>{
 	return (
 		<div>
-			<h1>You should only see this if you are logged in!</h1>
-			<p>{props.auth.username}</p>
-			<button onClick = {props.handleLogout}>Log Out</button>
+			<p>
+				Welcome to Cruise Life! Here you can find people with similar interests who will be sailing with you on your upcoming cruise vacation.
+				
+			</p>
 		</div>
 	);
 }

@@ -1,11 +1,8 @@
-.NavBar {
-    background: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Croissant One', cursive;
-    color: white;
+.btn-primary {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.Login {
-    text-align: right;
+.navbar {
+    font-family: 'Roboto', sans-serif;
 }

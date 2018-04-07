@@ -20,8 +20,14 @@ const NavBar = (props) => {
       </button>
       <a class="navbar-brand" href="/main">Home</a>
 			<a class="navbar-brand" href="/CreateBody">Create Vacation</a>
-			<a class="navbar-brand" href="#">Weather</a>
-    </div>      
+			<a class="navbar-brand" href="/weather">Weather and Live Cams</a>
+			
+		
+			<ul class="nav navbar-nav">
+			<button type="button" class="btn btn-primary">Sign In</button>
+			<button type="button" class="btn btn-primary">Create Account</button>  
+			</ul>
+		</div>      
     
   </div>
 </nav>
