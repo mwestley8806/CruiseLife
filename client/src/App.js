@@ -133,7 +133,7 @@ class App extends Component {
         <Route exact path = "/CreateTrip" component={CreateTrip} />
         <Route exact path = "/main" component={main} />
         <Route exact path = "/MainPage" component={MainPage} />
-        
+        <Route exact path = "/SignIn" component={SignIn} />
         </div>
       </Router>
     );

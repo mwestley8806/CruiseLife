@@ -2,8 +2,6 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const passportLocalMongoose = require('passport-local-mongoose');
 
-// const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/projectdb');
 
 const trip = new Schema({
     cruiseline: { type: String, required: true },

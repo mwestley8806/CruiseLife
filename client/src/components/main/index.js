@@ -7,6 +7,7 @@ import Weather from "../weather";
 import { BrowserRouter as Router, Route, } from 'react-router-dom';
 import MainPage from '../MainPage';
 import Wrapper from '../Wrapper';
+import SignIn from "../SignIn";
 
 
 // gather other componets
@@ -20,11 +21,7 @@ const main = (props) => {
 					<h1 className="title">Cruise Life</h1>
 				</CruiseHome>
 				<NavBar />
-				<Wrapper>
-					<Route exact path="/MainPage" component={MainPage} />
-					<Route exact path="/CreateBody" component={CreateBody} />
-					<Route exact path="/weather" component={Weather} />
-				</Wrapper>
+				<MainPage />
 			</div>
 		</Router>
 	);

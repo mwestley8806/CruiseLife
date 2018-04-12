@@ -1,10 +1,16 @@
 module.exports = function (passport) {
 	const path = require("path");
 	const router = require('express').Router();
+	const userController = require("../controllers/userController")
+	
+	router.route("/user")
+		.get(userController.findAll)
 
-
-	//add any API routes here
-
+	router
+		.route("/:id")
+		.get(userController.findById)
+		.put(userController.update)
+		.delete(userController.remove);
 
 	return router;
 };

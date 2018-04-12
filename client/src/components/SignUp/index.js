@@ -8,8 +8,8 @@ const SignUp = (props)=> {
 			<h1>SIGN UP</h1>
 			<Link to = "/" >Go to sign in</Link>
 			<form>
-				<label>Email</label><br/>
-				<input value = {props.username} onChange = {props.handleChange} name='username' type='email' placeholder = 'example@email.com'/>
+				<label>User Name</label><br/>
+				<input value = {props.username} onChange = {props.handleChange} name='username' type='username' placeholder = 'User Name'/>
 				<br />
 				<label>Password</label><br/>
 				<input name='password' type='password' value = {props.password} onChange = {props.handleChange} />
