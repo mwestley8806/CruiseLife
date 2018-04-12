@@ -30,7 +30,18 @@ mongoose.Promise = global.Promise;
 //add mongo heroku uri
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/cruise-life-development"
+  
 );
+
+var databaseUri = "mongodb://localhost/cruise-life-development"
+
+if (process.env.MONGODB_URI) {
+
+  mongoose.connect(process.env.MONGODB_URI)
+
+} else {
+  mongoose.connect(databaseUri);
+}
 
 // Start the API server
 app.listen(PORT, function() {
