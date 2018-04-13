@@ -25,6 +25,7 @@ const NavBar = (props) => {
 		
 			<ul class="nav navbar-nav">
 			<button type="button" class="btn btn-primary" type = 'submit' onClick = {props.handleSubmit}>Sign In</button>
+			<a class="navbar-brand" href="/SignIn">Sign in</a>
 			<button type="button" class="btn btn-primary">Create Account</button>  
 			</ul>
 		</div>      
