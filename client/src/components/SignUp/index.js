@@ -1,12 +1,19 @@
 import React from 'react';
 import "./style.css";
 import {Link} from 'react-router-dom';
+import CruiseHome from "../CruiseHome";
+import NavBar from "../NavBar";
+import { BrowserRouter as Router, Route, } from 'react-router-dom';
 
 const SignUp = (props)=> {
 	return (
-		<div>
-			<h1>SIGN UP</h1>
-			<Link to = "/" >Go to sign in</Link>
+		<Router>
+			<div>
+				<CruiseHome>
+					<h1 className="title">Cruise Life</h1>
+				</CruiseHome>
+				<NavBar />
+				<div className = "signin col-md-6">
 			<form>
 				<label>User Name</label><br/>
 				<input value = {props.username} onChange = {props.handleChange} name='username' type='username' placeholder = 'User Name'/>
@@ -17,6 +24,11 @@ const SignUp = (props)=> {
 				<button type = 'submit' name = "/auth/signup" onClick = {props.handleSubmit}>Sign Up</button>
 			</form>
 		</div>
+		<div className = "col-md-6">
+		<img className = "oasis" src={require('./images/fantasy.png')} />
+		</div>
+			</div>
+		</Router>
 	);
 }
 

@@ -17,6 +17,11 @@ const MainPage = (props) => {
 					Get started by creating a profile or logging into yours and set up an upcoming trip.
 					Then learn who your matches are and get to connecting.
 				</h2>
+				<img className="dream" src={require('./images/dream.jpg')} />
+				<img className="harmony" src={require('./images/harmony.jpg')} />
+				<img className="escape" src={require('./images/escape.jpg')} />
+				<img className="vista" src={require('./images/vista.jpg')} />
+				<img className="radiance" src={require('./images/radiance.jpg')} />
 			</div>
 			<div class="col-md-6">
 				

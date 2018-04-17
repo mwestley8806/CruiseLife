@@ -6,17 +6,22 @@ import CreateTrip from "../CreateTrip";
 import { BrowserRouter as Router, Route, } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
+
 // gather other componets
 //import otherComponent from "../otherComponent";
 
 const CreateBody = (props) => {
 	return(
-		<Router>
-			<div className="col-md-12">
+			<div>
 				<CruiseHome>
 					<h1 className="title">Cruise Life</h1>
 				</CruiseHome>
 				<NavBar />
+				<div>
+				<h3 className="userInfo">
+					Welcome {props.auth.username}, let's get to cruising!
+				</h3>
+				</div>
 			<div className="trips">
 			<a href="/CreateTrip">Create Trip</a>
 			</div>
@@ -24,7 +29,7 @@ const CreateBody = (props) => {
 			<a href="/CreateTrip">Planned Trips</a>
 			</div>		
 			</div>
-		</Router>
+
 	);
 }
 

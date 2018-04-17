@@ -1,0 +1,13 @@
+.signin {
+    background: lightgreen;
+    border: 10px solid lightyellow;
+    border-radius: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.oasis {
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+}

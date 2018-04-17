@@ -3,7 +3,7 @@ import "./style.css";
 import CruiseHome from "../CruiseHome";
 import NavBar from "../NavBar";
 import { BrowserRouter as Router, Route, } from 'react-router-dom';
-
+import Foot from "../Foot";
 
 // gather other componets
 //import otherComponent from "../otherComponent";
@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, } from 'react-router-dom';
 const weather = (props) => {
 	return(
 		<Router>
-			<div className="col-md-12">
+			<div>
 				<CruiseHome>
 					<h1 className="title">Cruise Life</h1>
 				</CruiseHome>
@@ -31,7 +31,7 @@ const weather = (props) => {
 					
 					<button type="button" class="btn btn-primary">Nassau, Bahamas</button>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</Router>
 	);

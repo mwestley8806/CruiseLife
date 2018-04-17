@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, } from 'react-router-dom';
 import MainPage from '../MainPage';
 import Wrapper from '../Wrapper';
 import SignIn from "../SignIn";
+import Foot from "../Foot";
 
 
 // gather other componets
@@ -22,6 +23,7 @@ const main = (props) => {
 				</CruiseHome>
 				<NavBar />
 				<MainPage />
+				<Foot />
 			</div>
 		</Router>
 	);
