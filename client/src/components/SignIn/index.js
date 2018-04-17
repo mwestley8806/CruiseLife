@@ -3,7 +3,6 @@ import "./style.css";
 import {Link} from 'react-router-dom';
 import CruiseHome from "../CruiseHome";
 import NavBar from "../NavBar";
-import Foot from "../Foot";
 import { BrowserRouter as Router, Route, } from 'react-router-dom';
 
 
@@ -34,7 +33,6 @@ const SignIn = (props)=> {
 		<img className = "oasis" src={require('./images/oasis.jpg')} />
 		</div>
 			</div>
-			<Foot />
 			
 		</Router>
 		
