@@ -19,7 +19,7 @@ const CreateBody = (props) => {
 				<NavBar />
 				<div>
 				<h3 className="userInfo">
-					Welcome {props.auth.username}, let's get to cruising!
+					Welcome! Let's get to cruising!
 				</h3>
 				</div>
 			<div className="trips">
