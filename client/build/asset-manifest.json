@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.a6e8c502.css",
-  "main.css.map": "static/css/main.a6e8c502.css.map",
-  "main.js": "static/js/main.247895f5.js",
-  "main.js.map": "static/js/main.247895f5.js.map",
-  "static\\media\\Island.jpg": "static/media/Island.3869e74b.jpg"
+  "main.css": "static/css/main.6ec17cdc.css",
+  "main.css.map": "static/css/main.6ec17cdc.css.map",
+  "main.js": "static/js/main.2f4a1efa.js",
+  "main.js.map": "static/js/main.2f4a1efa.js.map",
+  "static\\media\\Island.jpg": "static/media/Island.3869e74b.jpg",
+  "static\\media\\dream.jpg": "static/media/dream.0d02b8c3.jpg",
+  "static\\media\\escape.jpg": "static/media/escape.bb9b4bce.jpg",
+  "static\\media\\fantasy.png": "static/media/fantasy.b2c5ac21.png",
+  "static\\media\\harmony.jpg": "static/media/harmony.f4b6a61b.jpg",
+  "static\\media\\oasis.jpg": "static/media/oasis.1afa9944.jpg",
+  "static\\media\\radiance.jpg": "static/media/radiance.c64b746b.jpg",
+  "static\\media\\vista.jpg": "static/media/vista.53ac6067.jpg"
 }
